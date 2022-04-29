@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'Yekan';
+	src:url(./Yekan-Font-master/Yekan.eot); /* IE9 Compat Modes */
+	src:url(./Yekan-Font-master/Yekan-Font-master/Yekan.css) format('embedded-opentype'), /* IE6-IE8 */
+		url(./Yekan-Font-master/Yekan.woff2) format('woff2'), /* Modern Browsers */
+		url(./Yekan-Font-master/Yekan.woff) format('woff'), /* Modern Browsers */
+		url(./Yekan-Font-master/Yekan.otf) format('opentype'), /* Open Type Font */	
+		url(./Yekan-Font-master/Yekan.ttf) format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Yekan'
+}
+
+body {
+	background: #f1f1f1c5;
+}
+
+.navbar {
+    display: flex; 
+    background: #3a3cac ;
+    align-items: center;
+    padding: 0 3rem;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 3px 8px 2px rgba(173, 172, 172, 0.452); 
+}
+
+.navbar p {
+	display: flex;
+	width: 100%;
+	margin-top: 10px;
+	justify-content: center;
+	color: #fffbfb;
+	font-size: 20px;
+}
+
+.button-start {
+    display: flex;
+    position: relative;
+    margin: 50px 50px;
+    padding: 1rem;
+    justify-content:center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+	border: solid 2px #2bc3ff9c ;
+	box-shadow: 2px 2px 8px 1px #7a7a7a73; 
+}
+
+.text {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.link {
+	text-decoration: none;
+	color: #000000;
+} 
+
+@media (max-width: 392px) {
+	.text {
+		font-size: 13px;
+		margin: auto;
+	}
+	.button-start {
+	    flex-direction: column;
+
+	}
+	.btn-outline-dark{
+		margin-top: 8px;
+	}
+
+}

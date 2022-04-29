@@ -1,0 +1,100 @@
+.body{
+	background-color: #f1f1f1c5;
+	font-size: 14px;
+}
+#container{
+	width: 70%;
+	overflow: hidden;
+	margin:20px auto;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+header{
+	text-align: center;
+	border-bottom: 3px solid rgba(35, 90, 153, 0.315);
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	background: #2bc3ff4b;
+}
+header h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+form h3 {
+    font-size: 18px;
+    margin-top: 5px;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	background: #2bc3ff4b ;
+}
+.box {
+	background: #fff;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	border: solid 2px #2bc3ff9c ;
+	box-shadow: 1px 2px 4px rgba(105, 104, 100, 0.205);
+	
+}
+.form-check-input {
+    margin-left: 5px;
+}
+section{
+	min-height: 400px
+}
+.me-auto {
+    padding-left: 100px ;
+}
+footer{
+	text-align: center;
+}
+
+footer p {
+	margin-top: 5px;
+}
+.btn-outline-dark {
+	display: flex;
+	margin: auto;
+}
+.toast-header{
+	color:#000;
+	background-color: #2bc3ff ;
+}
+
+#result{
+	background-color: #2bc3ff9c;
+	border-radius: 10px;
+	color: #141414;
+	box-shadow: 1px 2px 4px rgba(105, 104, 100, 0.205);
+	margin-bottom: 8px;
+}
+#result h3{
+	padding: 10px;
+	margin: 10px 0px;
+}
+#result span{
+	color: #181c35;
+	font-weight: bold;
+}
+
+@media (max-width: 429px) {
+	#container {
+		width: 80%;
+	}
+	form h3 {
+		font-size: 15px;
+	}
+	#liveToastBtn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+	}
+	footer p {
+		font-size: 12px;
+		margin-top: 8px;
+	}
+}
